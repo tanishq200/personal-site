@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
-		title: "Ed the dev",
-		name: "Eddie O'Connor",
-		email: "eddie.oconnor3@gmail.com",
+		title: "Tanishq Javvaji",
+		name: "Tanishq Javvaji",
+		email: "tanishqj8816@gmail.com",
 		logo: "../headshot.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/eddieodev",
-		github: "https://github.com/Eddie-OConnor",
-		linkedin: "https://www.linkedin.com/in/edwardjamesoconnor/",
+		twitter: "https://x.com/tanishqj5",
+		github: "https://github.com/tanishq200",
+		linkedin: "https://www.linkedin.com/in/tanishqjavvaji/",
 	},
 
 	homepage: {
@@ -34,57 +34,42 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Personal Site",
+			title: "Secure Cloud Migration of Web Application",
 			description:
-				`A simple and responsive web app to showcase projects, display contact information, and tell your story. Open 
-                source for experienced developers to clone/fork and accessible for no-code users to update and host on their own`,
+				`Securely migrated a web application to AWS, leveraging GuardDuty, IAM, EC2, and S3 to enhance security and performance. Implemented strict access controls for 50+ users to ensure secure cloud infrastructure.`,
             
             // I recommend not exceeding four logos here, leads to a poor mobile UX
 			logos: [
-                "../react-icon.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
+                "../images/aws_logo.jpeg",
             ],
 			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/personal-site",
-            linkText2: "Live",
-			link2: "https://eddie-oconnor.com/"
+			link1: "https://github.com/tanishq200/Secure-Cloud-Migration-of-Web-Application",
 		},
 
 		{
-			title: "PollyGlot",
+			title: "Forensic Investigation on Log Files",
 			description:
-				`PollyGlot translates any language into one of the top 12 most commonly spoken global languages. 
-                It solves the language barrier problem when traveling or anytime you encounter an individual 
-                who does not speak the same language(s) as you.`,
-            logos: [
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
-                "../openai-icon.png",
+				`the forensic analysis conducted on the log files and related data from a cyber attack on ENPM685 Waffle Co., a tech startup that experienced unauthorized access during the development of their new web-based ordering feature. The investigation aimed to understand how the attack was carried out, identify what the attacker did, and determine the extent of the data accessed.`,
+            logos:[
+                "../images/splunk_logo.jpeg",
+				"../images/Wireshark_logo.png",
             ],
 			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/PollyGlot",
-            linkText2: "Live",
-			link2: "https://polly-glot.netlify.app/"
+			link1: "https://github.com/tanishq200/Forensic-Investigation-on-Log-Files",
 		},
 
 		{
-			title: "Sue",
+			title: "Forensic Investigation on Raw Memory Image",
 			description:
-				`"Sue" is derived from and a shortened version of "Sous Chef." Say goodbye to meal planning uncertainty 
-                and elevate your home cooking game with Sue's tailored recommendations, introducing you to dishes you 
-                might not have discovered on your own.`,
+				`The forensic analysis conducted on a disk image seized from a suspected malware creator using autopsy, Wireshark and Veracrypt. The investigation employed various digital forensic tools and techniques to analyze the disk image, identify suspicious activities, and uncover hidden data within executable and encrypted files.`,
             logos: [
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
-                "../openai-icon.png",
+				"../images/autopsy_logo.png",
+                "../images/veracrypt_logo.jpeg",
+				"../images/Wireshark_logo.png",
+
             ],
 			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/Sue",
-            linkText2: "Live",
-			link2: "https://sue-chef.netlify.app/"
+			link1: "https://github.com/tanishq200/Forensic-Investigation-on-Raw-Memory-Image",
 		}
 	],
 };

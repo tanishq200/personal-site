@@ -12,8 +12,7 @@ const Contact = () => {
 
     const codedDescription = (
         <span>
-            I'm happy to jump on a video or phone call to brainstorm coding or or non-coding passion projects, especially 
-            ones I mentioned in the About page! Send me an email at eddie.oconnor3@gmail.com or connect with me on the below socials.
+        	I'm happy to jump on a video or phone call to collaborate on cybersecurity projects or discuss topics like incident response, GRC, or other areas of security I’m passionate about. Feel free to send me an email at tanishqj8816@gmail.com or connect with me on the socials below. Let's work together to enhance security and share knowledge!
         </span>
     )
 

@@ -13,20 +13,15 @@ const About = () => {
     const codedDescription = (
         <span>
             <p>
-                With a solid background in ad tech, I bring a unique blend of technical expertise and client-facing experience to the 
-                table. In my most recent role as a solution engineer, I collaborated closely with the sales team throughout the pre-sale 
-                cycle for our demand-side platform (DSP). This involved conducting SaaS product demonstrations, coordinating responses 
-                to RFIs, and leveraging my hands-on platform knowledge to provide platform enhancement ideas to the product team.
+			Hi, I’m Tanishq Javvaji, a recent Master’s graduate in Cybersecurity from the University of Maryland, with experience in both Incident Response and Governance, Risk, and Compliance (GRC). I am passionate about securing digital environments and ensuring organizations remain compliant with regulatory standards.
+			</p>
+            <p>
+			With hands-on experience in Incident Response, Digital Forensics, and Penetration Testing, I excel at identifying, containing, and mitigating security incidents while analyzing attack vectors to strengthen organizational defenses. I have also conducted thorough IT audits and risk assessments, ensuring adherence to industry regulations and maintaining strong internal controls. By combining my skills in risk management, compliance auditing, and incident response, I aim to enhance security frameworks, support organizational growth, and proactively protect against evolving cyber threats.
             </p>
             <p>
-                Beyond my professional pursuits, I am an avid endurance athlete, chef, reader, home improvement DIYer, Bitcoiner, and 
-                sports fan. These varied interests not only fuel my personal growth but also contribute to my well-rounded 
-                perspective and a relentless desire to learn.
-            </p>
-            <p>
-                As a new father, I have mastered the art of balancing multiple priorities while maintaining a strong work ethic and commitment 
-                to family. I thrive in dynamic environments that demand adaptability, creative problem-solving, pursuit of improvement and 
-                discipline.
+			Beyond my professional pursuits, I am actively involved in the cybersecurity community. I volunteered as a grader for Mathcounts, 
+			where I contributed to supporting young mathematicians. I regularly attend industry conferences like OWASP and BSides to stay updated
+			on the latest trends and technologies in cybersecurity.
             </p>
         </span>
     )
@@ -63,7 +58,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://res.cloudinary.com/dexjsh4sa/image/upload/v1712609541/about_pxxxy1.jpg"
+											src="../images/my_images/about_me.jpg"
 											alt="about"
 											className="about-image"
 										/>

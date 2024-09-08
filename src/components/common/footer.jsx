@@ -26,7 +26,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Eddie O'Connor
+						© 2024 Tanishq Javvaji
 					</div>
 				</div>
 			</div>

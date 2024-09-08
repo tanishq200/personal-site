@@ -20,15 +20,14 @@ const Homepage = () => {
 
     const codedDescription = (
         <span>
-            A coding curiosity in late 2022 quickly evolved into a passion. While my current specialty lies in <strong>front-end development</strong>, 
-            I actively explore various technologies to expand my skill set and build a diverse array of projects.
+            A deep curiosity about cybersecurity has evolved into a driving passion. While my current expertise lies in <strong>Incident Response and Governance, Risk, and Compliance (GRC)</strong>, I continuously explore emerging security trends and technologies to strengthen my skills and contribute to a more secure digital world.
         </span>
     )
 
     const codedTitle = (
         <span>
-            I love building apps to solve real world challenges that are a delight to engage with for the end user.
-        </span>
+			I love creating cybersecurity solutions that tackle real-world threats and help organizations stay secure and compliant.
+       </span>
     )
 
     useEffect(() => {
@@ -57,7 +56,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://res.cloudinary.com/dexjsh4sa/image/upload/v1712609501/homepage_zdhsdp.jpg"
+											src="../images/my_images/homepage.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
